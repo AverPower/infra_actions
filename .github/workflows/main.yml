@@ -86,4 +86,4 @@ jobs:
           sudo docker pull averpower/infra_actions:latest
           # остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 averpower/infra_actions 
+          sudo docker run --rm -d -p 5000:5000 averpower/infra_actions
